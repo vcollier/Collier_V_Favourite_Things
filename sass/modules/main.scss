@@ -1,27 +1,12 @@
-// do your imports first. so that they're available everywhere
-@import "_vars";
-@import "modules/_navbar";
+$text-color: rgb(238, 238, 238);
+$body-bg: rgb(49, 51, 59);
+$main-text: Helvetica;
 
-body { 
-    color: $main-color;
-    background-color: $body-bg; 
+h1{
+    color:$text-color;
+    font-family: $main-text;
 }
 
-h1, h2, h3 { color: $heading-color;}
-
-.panel { height: 80vh; }
-
-.panel:nth-child(even) {
-    background-color: salmon;
-    color: white;
-
+body{
+    background-color: $body-bg;
 }
-
-#to-top {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    display: none;
-}
-
-@import "modules/_footer"
