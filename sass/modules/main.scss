@@ -1,12 +1,67 @@
 $text-color: rgb(238, 238, 238);
 $body-bg: rgb(49, 51, 59);
 $main-text: Helvetica;
+$box-shadow: 0 0.5rem 1rem rgba(black, 0.15);
+$button: rgb(23, 28, 34);
 
-h1{
+.hidden{
+    display: none;
+}
+
+h1, h2, h3, p{
     color:$text-color;
     font-family: $main-text;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 20px;
 }
+
+h2{
+    font-size: 25px;
+}
+
+p{
+    font-size: 15px;
+}
+
 
 body{
     background-color: $body-bg;
+    display: flex;
+}
+
+
+#hero img{
+    transition: 1s;
+    position: relative;
+    top: 0px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+#hero img:hover{
+    transition: 1s;
+    position: relative;
+    top: -10px;
+   
+}
+
+#hero button{
+    transition: 0.5s;
+    display: flex;
+    margin: 0 auto;
+    color: white;
+    font-size: 15px;
+    background-color: $button;
+    border-radius: 7em;
+    border-width: 0em;
+    padding: 7px 22px 7px 22px;
+}
+
+#hero button:hover{
+    transition: 0.5s;
+    color: $button;
+    background-color: white;
 }
