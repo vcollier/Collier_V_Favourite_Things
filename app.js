@@ -18,7 +18,7 @@ app.set('views', __dirname + '/views');
 app.get('/', (req, res) => {
   console.log('at the home route');
 
-  res.render('home', { message: "hi there!", anothermessage: "This is easy!"});
+  res.render('home', { message: "Now, more powerful then ever."});
 
 })
 
