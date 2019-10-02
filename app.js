@@ -1,36 +1,29 @@
 const express = require('express');
-const path = require('path'); // path lets us navigate the file system / folders
+const path = require('path');
 const hbs = require('hbs');
 
-// require sql connection file
 const sql = require('./utils/sql');
 
-// heroku assigns a port when it deploys via the process (environment varables - coming)
-// locally this will run @ port 3000; remotely it'll run wherever heroku tells it to run
-const port = process.env.PORT || 3000; // a double pipe - || - means "or"
+const port = process.env.PORT || 3000;
 
 const app = express();
 
 app.use(express.static('public'));
 
-// tell express to use the handlebars engine to render data
 app.set('view engine', 'hbs');
 
-// tell express to use the views folder to find its templates
 app.set('views', __dirname + '/views');
 
 
-// a forward slash is the home route (same as index.html)
 app.get('/', (req, res) => {
   console.log('at the home route');
-  //res.sendFile(path.join(__dirname + '/views/index.html'));
 
   res.render('home', { message: "hi there!", anothermessage: "This is easy!"});
-  // this builds localhost:3000/views/index.html
+
 })
 
 app.get('/contact', (req, res) => {
-  //res.sendFile(path.join(__dirname + '/views/contact.html'));
+
   res.render('contact', { message: "what is your name?" })
 })
 
