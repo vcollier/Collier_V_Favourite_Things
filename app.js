@@ -18,7 +18,7 @@ app.set('views', __dirname + '/views');
 app.get('/', (req, res) => {
   console.log('at the home route');
 
-  res.render('home', { message: "Now, more powerful then ever."});
+  res.render('home', { src: './images/macbook.png'});
 
 })
 
@@ -47,9 +47,7 @@ app.get('/users', (req, res) => {
   })
 })
 
-app.get('/portfolio', (req, res) => {
-  res.send('on the portfolio page!');
-})
+
 
 app.listen(port, () => {
   console.log(`Server running at ${port}`);
