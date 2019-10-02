@@ -23,13 +23,19 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
+  }
+
+  #hero{
+      position: relative;
+      top: 60px;
   }
   
   #hero img {
     -webkit-transition: 1s;
     transition: 1s;
     position: relative;
-    top: 0px;
+    top: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -41,7 +47,7 @@
     -webkit-transition: 1s;
     transition: 1s;
     position: relative;
-    top: -10px;
+    top: 10px;
   }
   
   #hero button {
@@ -64,4 +70,73 @@
     transition: 0.5s;
     color: #171c22;
     background-color: white;
+  }
+
+  #content1{
+      position: relative;
+      top: 200px;
+  }
+
+  #content1 h2{
+      font-size: 20px;
+    
+  }
+
+  #content1 p{
+      padding: 0 220px 0 220px;
+      line-height: 30px;
+  }
+
+  #content2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: relative;
+      top: 200px;
+  }
+
+  #content2 img{
+      width: 75%;
+      -webkit-transition: 1s;
+    transition: 1s;
+    position: relative;
+    margin-left: -100px;
+    top: 0px;
+  }
+
+  #content2 img:hover{
+    -webkit-transition: 1s;
+    transition: 1s;
+    position: relative;
+    top: -10px;
+
+  }
+
+
+  #content2 h4, h6{
+      font-size: 15px;
+      color: gray;
+      font-family: Helvetica;
+      letter-spacing: 1px;
+      font-weight: lighter;
+      line-height: 2px;
+  }
+
+  #content2 h3{
+      font-size: 20px;
+      line-height: 10px;
+  }
+
+  #content2 h5{
+      color: white;
+      font-family: Helvetica;
+      font-size: 30px;
+      line-height: 0;
+  }
+
+  #content2 div
+  {
+      position: relative;
+      left: -150px;
+      top: 70px;
   }
