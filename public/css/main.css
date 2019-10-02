@@ -9,6 +9,10 @@
     letter-spacing: 3px;
     line-height: 20px;
   }
+
+  h1{
+      font-size: 20pxx
+  }
   
   h2 {
     font-size: 25px;
@@ -24,6 +28,18 @@
     display: -ms-flexbox;
     display: flex;
     flex-direction: column;
+  }
+
+  #hero h1{
+      font-size: 20px;
+      padding: 0 30px 0 30px;
+      letter-spacing: 2px;
+      line-height: 30px
+  }
+
+  #hero p{
+      color: gray;
+      letter-spacing: 1.3px;
   }
 
   #hero{
@@ -74,41 +90,45 @@
 
   #content1{
       position: relative;
-      top: 200px;
+      top: 120px;
   }
 
+
   #content1 h2{
-      font-size: 20px;
+    font-size: 20px;
+    padding: 0 30px 0 30px;
+    letter-spacing: 0.3px;
+    line-height: 30px;
     
   }
 
   #content1 p{
-      padding: 0 220px 0 220px;
-      line-height: 30px;
+      font-size: 10px;
+      color: gray;
+      padding: 0 20px 0 20px;
+      line-height: 17px;
+      letter-spacing: 0.3px
   }
 
   #content2{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+   
       position: relative;
-      top: 200px;
+      top: 20px;
   }
 
   #content2 img{
-      width: 75%;
+      width: 95%;
       -webkit-transition: 1s;
     transition: 1s;
     position: relative;
-    margin-left: -100px;
-    top: 0px;
+    top: 100px;
   }
 
   #content2 img:hover{
     -webkit-transition: 1s;
     transition: 1s;
     position: relative;
-    top: -10px;
+    top: 90px;
 
   }
 
@@ -120,11 +140,13 @@
       letter-spacing: 1px;
       font-weight: lighter;
       line-height: 2px;
+      text-align: center;
   }
 
   #content2 h3{
       font-size: 20px;
-      line-height: 10px;
+      line-height: 20px;
+      text-align: center;
   }
 
   #content2 h5{
@@ -132,11 +154,52 @@
       font-family: Helvetica;
       font-size: 30px;
       line-height: 0;
+      text-align: center;
   }
 
   #content2 div
   {
       position: relative;
-      left: -150px;
-      top: 70px;
+      top: 20px;
   }
+
+
+  #content3 img{
+      width: 95%;
+      position: relative;
+      top: 170px;
+  }
+
+  #content3 h4{
+    font-size: 15px;
+    color: gray;
+    font-family: Helvetica;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    line-height: 13px;
+    text-align: center;
+}
+
+#content3 h3{
+    font-size: 20px;
+    line-height: 2px;
+    text-align: center;
+    
+}
+
+#content3 h5{
+    color: gray;
+    font-family: Helvetica;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    line-height: 17px;
+      letter-spacing: 0.3px
+}
+
+#content3 div
+{
+    position: relative;
+    top: 110px;
+}
