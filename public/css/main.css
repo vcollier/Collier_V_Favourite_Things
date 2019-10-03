@@ -1,0 +1,416 @@
+.hidden {
+    display: none;
+  }
+  
+  h1, h2, h3, p {
+    color: #eeeeee;
+    font-family: Helvetica;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 20px;
+  }
+
+  h1{
+      font-size: 20px;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+
+  body {
+    background-color: #31333b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header{
+    background: rgba(1, 7, 14, 0.2);
+  }
+
+  #mainNav ul{
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      font-family: Helvetica;
+      color: white;
+  }
+
+  #mainNav ul li{
+      transition: 0.5s;
+    margin: 0 auto;
+    font-size: 15px;
+     
+  }
+
+  #mainNav ul li:hover {
+    transition: 0.5s;
+      color: gray;
+  }
+
+
+
+  #hero h1{
+      font-size: 20px;
+      padding: 0 30px 0 30px;
+      letter-spacing: 2px;
+      line-height: 30px
+  }
+
+  #hero p{
+      color: gray;
+      letter-spacing: 1.3px;
+  }
+
+  #hero{
+      position: relative;
+      top: 60px;
+  }
+  
+  #hero img {
+    -webkit-transition: 1s;
+    transition: 1s;
+    position: relative;
+    top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #hero img:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    position: relative;
+    top: 10px;
+  }
+  
+  #hero button {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    color: white;
+    font-size: 15px;
+    background-color: #171c22;
+    border-radius: 7em;
+    border-width: 0em;
+    padding: 7px 22px 7px 22px;
+  }
+  
+  #hero button:hover {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: #171c22;
+    background-color: white;
+  }
+
+  @media screen and (min-width: 620px) {
+    #hero h1{
+      font-size: 30px;
+      letter-spacing: 2.3px;
+  }
+    #hero p{
+      font-size: 20px;
+    }
+  }
+
+  #content1{
+      position: relative;
+      top: 120px;
+  }
+
+
+  #content1 h2{
+    font-size: 20px;
+    padding: 0 30px 0 30px;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+    
+  }
+
+  #content1 p{
+      font-size: 10px;
+      color: gray;
+      padding: 0 20px 0 20px;
+      line-height: 17px;
+      letter-spacing: 0.3px
+  }
+
+  @media screen and (min-width: 620px){
+    #content1 h2{
+      font-size: 30px;
+    }
+
+    #content1 p{
+      font-size: 20px;
+      padding: 0 40px 0 40px;
+      line-height: 30px;
+    }
+  }
+
+  @media screen and (min-width: 1000px){
+    #content1 p{
+      font-size: 25px;
+      padding: 30px 120px 0 120px;
+      line-height: 40px;
+    }
+    
+  }
+
+  #content2{
+   
+      position: relative;
+      top: 20px;
+  }
+
+  #content2 img{
+      width: 95%;
+      -webkit-transition: 1s;
+    transition: 1s;
+    position: relative;
+    top: 100px;
+  }
+
+  #content2 img:hover{
+    -webkit-transition: 1s;
+    transition: 1s;
+    position: relative;
+    top: 90px;
+
+  }
+
+
+  #content2 h4, h6{
+      font-size: 15px;
+      color: gray;
+      font-family: Helvetica;
+      letter-spacing: 1px;
+      font-weight: lighter;
+      line-height: 2px;
+      text-align: center;
+  }
+
+  #content2 h3{
+      font-size: 20px;
+      line-height: 20px;
+      text-align: center;
+  }
+
+  #content2 h5{
+      color: white;
+      font-family: Helvetica;
+      font-size: 30px;
+      line-height: 0;
+      text-align: center;
+  }
+
+  #content2 div
+  {
+      position: relative;
+      top: 20px;
+  }
+
+  #column2{
+    display: block;
+    padding-top: 30px;
+  }
+
+  @media screen and (min-width: 1000px){
+    #content2{
+      display: flex;
+      flex-direction: row;
+    }
+
+    #content2 img{
+      left: -100px;
+      width: 80%;
+    }
+
+    #content2 div{
+      left: -70px;
+      top: 90px;
+    }
+
+    #content2 h3{
+      font-size: 25px;
+      line-height: 35px;
+    }
+
+    #content2 h4, h6{
+      font-size: 20px;
+    }
+  
+  }
+
+  @media screen and (min-width: 1200px){
+    #content2 div{
+      top: 120px;
+    }
+  }
+
+  #content3 img{
+    -webkit-transition: 1s;
+    transition: 1s;
+      width: 95%;
+      position: relative;
+      top: 170px;
+  }
+
+  #content3 img:hover{
+    -webkit-transition: 1s;
+    transition: 1s;
+    position: relative;
+    top: 160px;
+}
+
+  #content3 h3{
+    font-size: 20px;
+    line-height: 2px;
+    text-align: center;
+  
+}
+
+  #content3 h4{
+    font-size: 15px;
+    color: gray;
+    font-family: Helvetica;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    line-height: 13px;
+    text-align: center;
+}
+
+  #content3 h5{
+    color: gray;
+    font-family: Helvetica;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    line-height: 17px;
+      letter-spacing: 0.3px
+}
+
+  #content3 div{
+    position: relative;
+    top: 110px;
+}
+
+@media screen and (min-width: 620px){
+  #content3 h3{
+    font-size: 30px;
+  }
+
+  #content3 h4{
+    font-size: 20px;
+  }
+
+  #content3 h5{
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0 40px 0 40px;
+  }
+    
+}
+
+@media screen and (min-width: 1000px){
+  #content3 img{
+    width: 80%;
+  }
+
+  #content3 h4{
+    line-height: 40px;
+    font-size: 25px;
+  }
+
+  #content3 h5{
+    font-size: 25px;
+      padding: 30px 120px 0 120px;
+      line-height: 40px;
+  }
+}
+
+#content4 img{
+  -webkit-transition: 1s;
+    transition: 1s;
+  position: relative;
+  top: 230px;
+  width: 95%;
+}
+
+#content4 h2{
+  font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#content4 p{
+  color: gray;
+    font-family: Helvetica;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    line-height: 17px;
+      letter-spacing: 0.3px
+}
+
+#content4 div{
+  position: relative;
+  top: 270px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 620px){
+  #content4 h2{
+    font-size: 30px;
+  }
+
+  #content4 p{
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0 40px 0 40px;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  #content4 p{
+    font-size: 25px;
+      padding: 30px 120px 0 120px;
+      line-height: 40px;
+  }
+}
+
+#videoCon{
+    display: flex;
+    flex-direction: column;
+}
+
+#videoCon h2{
+  position: relative;
+  top: 270px;
+}
+
+video{
+    position: relative;
+    top: 300px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 620px){
+  #videoCon h2{
+    font-size: 30px;
+  }
+}
