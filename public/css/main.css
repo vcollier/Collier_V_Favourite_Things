@@ -191,10 +191,20 @@
 
 
   #content3 img{
+    -webkit-transition: 1s;
+    transition: 1s;
       width: 95%;
       position: relative;
       top: 170px;
   }
+
+  #content3 img:hover{
+    -webkit-transition: 1s;
+    transition: 1s;
+    width: 95%;
+    position: relative;
+    top: 160px;
+}
 
   #content3 h4{
     font-size: 15px;
@@ -228,4 +238,15 @@
 {
     position: relative;
     top: 110px;
+}
+
+#videoCon{
+    display: flex;
+}
+
+video{
+    position: relative;
+    top: 300px;
+    width: 90%;
+    margin: 0 auto;
 }
